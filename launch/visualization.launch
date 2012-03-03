@@ -1,0 +1,12 @@
+<launch>
+  <param name="/use_sim_time" value="true"/>
+
+  <node pkg="tf" type="static_transform_publisher" name="tf_broadcaster" args="0 0 0.0 0 0 0 /map /odom 100"/>
+  
+  <node pkg="rviz" type="rviz" name="rviz" args="--sync --display-config $(find ps7_rviz)/rviz/default.vcg"/>
+  
+  <node pkg="map_server" type="map_server" name="map_server" args="$(find ps7_rviz)/map/map.yaml"/>
+
+  <!--<node pkg="ps7_viz" type="randomposes.py" name="randomposes"/>-->
+  
+</launch>

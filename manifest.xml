@@ -1,0 +1,25 @@
+<package>
+  <description brief="ps7_rviz">
+
+     Particle array visualization using rviz.
+
+     See ./example/ for python usage. 
+     To run, do 
+     roslaunch ps7_rviz visualization.launch
+     in separate terminal:
+     rosrun ps7_rviz randomposes.py
+
+
+  </description>
+  <author>mmedvede</author>
+  <license>BSD</license>
+  <review status="unreviewed" notes=""/>
+  <url>http://ros.org/wiki/ps7_rviz</url>
+
+  <depend package="rospy"/>
+  <depend package="geometry_msgs"/>
+  <depend package="tf"/>
+
+</package>
+
+

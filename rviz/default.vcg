@@ -1,0 +1,39 @@
+Background\ ColorR=0
+Background\ ColorG=0
+Background\ ColorB=0
+Fixed\ Frame=/map
+Target\ Frame=/map
+OdometryMcl.Angle\ Tolerance=0.01
+OdometryMcl.ColorR=1
+OdometryMcl.ColorG=0.619608
+OdometryMcl.ColorB=0
+OdometryMcl.Enabled=1
+OdometryMcl.Keep=1
+OdometryMcl.Position\ Tolerance=0.01
+OdometryMcl.Topic=/odom
+Pose\ Array.ColorR=1
+Pose\ Array.ColorG=0.1
+Pose\ Array.ColorB=0
+Pose\ Array.Enabled=1
+Pose\ Array.Topic=/particles
+map.Alpha=0.5
+map.Draw\ Behind=0
+map.Enabled=1
+map.Topic=/map
+Tool\ 2D\ Nav\ GoalTopic=/move_base_simple/goal
+Tool\ 2D\ Pose\ EstimateTopic=initialpose
+Camera\ Type=rviz::OrbitViewController
+Camera\ Config=0.001 0.00205808 49.5245 -5.51939 2.26076 -27.0469
+Property\ Grid\ State=selection=;expanded=;scrollpos=0,0;splitterpos=212,440;ispageselected=1
+[Display0]
+Name=map
+Package=rviz
+ClassName=rviz::MapDisplay
+[Display1]
+Name=Pose Array
+Package=rviz
+ClassName=rviz::PoseArrayDisplay
+[Display2]
+Name=OdometryMcl
+Package=rviz
+ClassName=rviz::OdometryDisplay
